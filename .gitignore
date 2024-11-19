@@ -1,0 +1,31 @@
+# Ignore Terraform files that shouldn't be committed
+*.tfstate
+*.tfstate.*
+*.backup
+*.tfvars
+*.tfvars.json
+
+# Ignore CLI configuration files
+.terraform/
+
+# Ignore crash logs
+crash.log
+
+# Ignore override files (these are usually used for local overrides)
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore sensitive files (e.g., private keys, credentials)
+secret.tfvars
+secrets.json
+
+# Ignore local state backup files
+.terraform.lock.hcl
+
+# Ignore IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
